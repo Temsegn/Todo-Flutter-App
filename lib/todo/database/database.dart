@@ -4,6 +4,7 @@ class TodoListDatabase {
   List todoList = [];
 
   final _todo = Hive.box("todo");
+
   void createInitialData() {
     todoList = [
       ["meet markos", false],

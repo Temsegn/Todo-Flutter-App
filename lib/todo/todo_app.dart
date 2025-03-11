@@ -45,7 +45,7 @@ class _TodoHomePageState extends State<TodoHomePage> {
     setState(() {
       db.todoList[index][1] = !db.todoList[index][1];
     });
-    db.updateDatabase();
+    db.updateDatabase(); 
   }
 
   // Delete a task
